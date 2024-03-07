@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+        <h2>Temperature App</h2>
+        <input type="number" id="numberbar"><br>
+        <p id="resultbox" ></p>
+        <div class="radio-group">
+            <input type="radio" id="tofarenhite" name="temperatureType" checked>
+            <label for="tofarenhite">to Fahrenheit</label><br>
+    
+            <input type="radio" id="tocalcius" name="temperatureType">
+            <label for="tocalcius">to Celsius</label>
+        </div>
+        
+        <button type="button" onclick="calculate()">submit </button>
+    </form>
+  
+
+</body>
+<script src="code.js"></script>
+</html>

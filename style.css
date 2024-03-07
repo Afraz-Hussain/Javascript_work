@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eb87872a;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+#numberbar {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#resultbox {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2); /* make radio buttons slightly larger */
+}
+
+button {
+    background-color: #3b0301;
+    color: white;
+    padding: 12px 20px; /* adjust padding for larger buttons */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #500401;
+}
+
+/* Additional styling for better visibility of radio buttons */
+input[type="radio"] + label {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #31708f;
+    font-size: 16px;
+}
